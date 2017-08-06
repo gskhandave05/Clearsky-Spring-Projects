@@ -1,3 +1,5 @@
+package com.gk.egen.api;
+
 
 
 import org.springframework.boot.SpringApplication;
