@@ -1,5 +1,5 @@
-FROM frolvlad/alpine-oraclejdk8:slim
-VOLUME /tmp
+#FROM frolvlad/alpine-oraclejdk8:slim
+#VOLUME /tmp
 #ADD target/container-0.0.1.jar deployments/api.jar
 RUN sh -c 'touch /api.jar'
 ENV JAVA_OPTS="-Dspring.profiles.active=prod"
