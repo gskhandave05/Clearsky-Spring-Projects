@@ -28,19 +28,17 @@
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-maven-plugin</artifactId>
 		    <version>${spring.boot.version}</version>
+		    <configuration>
+		    	<executable>true</executable>
+		    	<mainClass>com.gk.egen.api.Application</mainClass>
+		    </configuration>
 		    <executions>
-        <execution>
-            <goals>
-                <goal>repackage</goal>
-            </goals>
-            <configuration>
-                <classifier>spring-boot</classifier>
-                <mainClass>
-                  com.gk.egen.api.Application
-                </mainClass>
-            </configuration>
-        </execution>
-    </executions>
+		    	<execution>
+		    	<goals>
+		    	<goal>repackage</goal>
+		    	</goals>
+		    	</execution>
+		    </executions>
 	  	</plugin>
 	  </plugins>
   </build>
