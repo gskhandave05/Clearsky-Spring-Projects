@@ -11,6 +11,7 @@
     <java.version>1.8</java.version>
     <springfox.version>2.6.1</springfox.version>
     <mysql.version>6.0.5</mysql.version>
+    <start-class>com.gk.egen.api.Application</start-class>
   </properties>
   
   <build>
@@ -28,10 +29,10 @@
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-maven-plugin</artifactId>
 		    <version>${spring.boot.version}</version>
-		    <configuration>
+		    <!-- <configuration>
 		    	<executable>true</executable>
 		    	<mainClass>com.gk.egen.api.Application</mainClass>
-		    </configuration>
+		    </configuration> -->
 		    <executions>
 		    	<execution>
 		    	<goals>
