@@ -1,7 +1,3 @@
-## allowing jenkins user to run sudo commands
-RUN echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
- ## avoid typing sudo in command line
-RUN echo "alias docker='sudo docker '" >> /home/jenkins/.bashrc
 FROM frolvlad/alpine-oraclejdk8:slim
 VOLUME /tmp
 ADD container-0.0.1.jar api.jar
