@@ -28,7 +28,7 @@
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-maven-plugin</artifactId>
 		    <version>${spring.boot.version}</version>
-		    <configuration>
+		    <!-- <configuration>
 		    	<executable>true</executable>
 		    	<mainClass>com.gk.egen.api.Application</mainClass>
 		    </configuration>
@@ -38,7 +38,7 @@
 		    	<goal>repackage</goal>
 		    	</goals>
 		    	</execution>
-		    </executions>
+		    </executions> -->
 	  	</plugin>
 	  </plugins>
   </build>
