@@ -10,8 +10,10 @@ directory structure:
 
 ### container [module-container]: contains SpringBoot version of the same API with Docker configuration
 
-For the final module submission [module-complete], update following urls for your app:
+Jenkins instance is at below location on EC2 instance:
 
-### EC2 Jenkins URL: http://ec2-18-220-13-212.us-east-2.compute.amazonaws.com:8090
+### EC2 Jenkins URL: http://ec2-34-230-151-235.compute-1.amazonaws.com:8080
 
-### Swagger URL: http://ec2-18-220-13-212.us-east-2.compute.amazonaws.com:8080/weather/api/swagger-ui.html
+Application is deployed at below url:
+
+### Swagger URL: http://ec2-34-230-151-235.compute-1.amazonaws.com:8081/api/swagger-ui.html#/
